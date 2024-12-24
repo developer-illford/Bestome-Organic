@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestome</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/6c53136549.js" crossorigin="anonymous"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ribeye+Marrow&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header_top_strip">
+            <a href="mailto:bestome@gmail.com"><i class="fa-regular fa-envelope"></i> &nbsp;bestome@gmail.com</a>
+            <a href="tel:+918590925972"><i class="fa-solid fa-phone"></i> &nbsp;+918590925972</a>
+            <a href=""><i class="fa-solid fa-location-dot"></i> &nbsp;EDAKKARA, MALAPPURAM</a>
+        </div>
+        <div class="navbar row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 header_col1">
+                <img onclick="window.location.href='index.html'" src="img/Bestome_logo.webp" alt="">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-0 col-0 header_col2">
+                <a href="index.html">Home</a>
+                <a href="#home_about">About</a>
+                <a href="products.html">Products</a>
+                <a href="contact.html">Contact Us</a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/+918590925972"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+
+            </div>
+            <div class="col-xl-0 col-lg-0 col-md-0 col-sm-6 col-6 header_col3">
+                <a><i onclick="hamburgerToggle()" class="fa-solid fa-bars"></i></a>
+            </div>
+        </div>
+        <div id="mobileMenu" class="mobile_menu">
+            <ul>
+                <li class="mobile_item"><a href="index.html">Home</a></li>
+                <li class="mobile_item"><a href="#home_about">About</a></li>
+                <li class="mobile_item"><a href="products.html">Products</a></li>
+                <li class="mobile_item"><a href="contact.html">Contact Us</a></li>
+                <br><br>
+                <li class="mobile_item"><a href="mailto:bestome@gmail.com"><i class="fa-regular fa-envelope"></i>
+                        &nbsp;bestome@gmail.com</a></li>
+                <li class="mobile_item"><a href="tel:+918590925972"><i class="fa-solid fa-phone"></i>
+                        &nbsp;+918590925972</a></li>
+                <li class="mobile_item"><a href=""><i class="fa-solid fa-location-dot"></i> &nbsp;EDAKKARA,
+                        MALAPPURAM</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="hero animate fadeInUp ">
+        <img class="hero_img_lg" src="img/hero_banner_lg.webp" alt="">
+        <img class="hero_img_md" src="img/hero_banner_md.webp" alt="">
+        <img class="hero_img_sm" src="img/hero_banner_sm.webp" alt="">
+        <div class="hero_content ">
+            <h2>Premium Quality Meats, Gourmet Pickles, and Artisan Dry Meats</h2>
+            <!-- <p>Experience the magic of movement and artistry combined.</p> -->
+            <div class="hero_actions">
+                <!-- <button class="buyNow_button_white"><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;Buy
+                    Now</button> -->
+
+
+                <button onclick="window.location.href = 'products.html'" class="BuyNowButton_1">
+                    Buy Now
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/+918590925972"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="home_offers ">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 home_offers_col animate fadeRight ">
+                <img onclick="window.location.href = 'products.html'" src="img/Bestome_offer_01.png" alt="">
+                <p>
+                    Chicken Pickle, a tangy and spicy condiment made from marinated chicken, elevates any meal with its
+                    mouthwatering flavors and captures the essence of traditional recipes. <br>
+                    <a href="products.html">More Products &nbsp; <i class="fa-solid fa-caret-right"></i></a>
+                </p>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 home_offers_col animate fadeLeft ">
+                <img onclick="window.location.href = 'products.html'" src="img/Bestome_offer_02.png" alt="">
+                <p>
+                    Buffalo Chammanthi Podi is a Kerala-inspired spice blend, crafted from roasted coconut, spices, and
+                    buffalo meat, providing a savory kick to any dish. <br>
+                    <a href="products.html">More Products &nbsp; <i class="fa-solid fa-caret-right"></i></a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="home_offers_sm">
+        
+        <div class="slideshow-container">
+
+            <div class="mySlides">
+
+                <img onclick="window.location.href = 'products.html'" src="img/Bestome_offer_01.png" alt="">
+                <p>
+                    Chicken Pickle, a tangy and spicy condiment made from marinated chicken, elevates any meal with its
+                    mouthwatering flavors and captures the essence of traditional recipes. <br>
+                    <a href="products.html">More Products &nbsp; <i class="fa-solid fa-caret-right"></i></a>
+                </p>
+            </div>
+
+            <div class="mySlides">
+                <img onclick="window.location.href = 'products.html'" src="img/Bestome_offer_02.png" alt="">
+                <p>
+                    Buffalo Chammanthi Podi is a Kerala-inspired spice blend, crafted from roasted coconut, spices, and
+                    buffalo meat, providing a savory kick to any dish. <br>
+                    <a href="products.html">More Products &nbsp; <i class="fa-solid fa-caret-right"></i></a>
+                </p>
+            </div>
+
+
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+    </section> -->
+
+
+    <section class="home_about " id="home_about">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 animate fadeRight ">
+                <img src="img/bestome_beef_packet.webp" alt="">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 animate fadeInUp ">
+                <h3>
+                    ABOUT BESTOME
+                </h3>
+                <p>
+                    Welcome to Bestome Meats, your premier destination for high-quality smoked buffalo dry meat and meat
+                    products. Located in Thazhemamankara, M/s Sreesha Food Industries (India) has been a cornerstone of
+                    traditional meat production for over 25 years.
+                    Under the leadership of our founder and CEO, Mr. S. Chandra Bose, a dynamic entrepreneur with
+                    extensive experience in the industry, we are committed to upholding the time-honored methods of
+                    crafting our products. Mr. Bose's passion and bold approach to business ensure that we consistently
+                    deliver the finest quality to our customers.
+                </p>
+                <p>
+                    Our marketing manager, Mr. Vishnu Unnikrishnan, is a talented young graduate with a wealth of
+                    experience in marketing and sales management. His innovative strategies and deep understanding of
+                    the market help us effectively reach both wholesale and retail customers, providing exceptional
+                    service and ensuring customer satisfaction.
+                </p>
+                <p>
+                    At Bestome Meats, we take pride in our heritage and our dedication to producing delicious, authentic
+                    smoked buffalo dry meat and pickles. Join us in celebrating the rich culinary traditions of Kerala
+                    while enjoying the superior taste and quality of our products. Whether you're a retailer looking to
+                    stock our items or a wholesaler seeking a reliable supplier, we are here to meet your needs.
+                    Discover the bestome difference today.
+                </p>
+                <!-- <button class="buyNow_button_red"><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;Buy Now</button> -->
+                <button onclick="window.location.href = 'products.html'" class="BuyNowButton_1">
+                    Buy Now
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="home_products ">
+        <img src="img/products_section_top_strip.webp" alt="">
+        <h3>
+            FEATURED PRODUCTS
+        </h3>
+        <div class="category_selection animate fadeInUp ">
+            <button class="category_button active" data-category="all">All Products</button>
+            <button class="category_button" data-category="dry-meat">Smoked Buffalo Dry Meat</button>
+            <button class="category_button" data-category="crushed-meat">Smoked Buffalo Crushed Meat</button>
+            <button class="category_button" data-category="others">Others</button>
+        </div>
+        <div class="home_product_listing">
+            <div class="row">
+
+
+
+
+                <div onclick="window.location.href = 'products.html'"
+                class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 productCol  animate fadeInUp "
+                data-category="dry-meat">
+                <div class="product_card">
+                    <img src="img/Chicken_fibre.png" alt="">
+                    <div class="product_card_description">
+                        <p class="product_card_description_name">Chicken Fiber 100gm</p>
+                        <p class="product_card_description_star">★★★★★</p>
+                        <p class="product_card_description_price">
+                            <span class="highlighted_price"><i class="fa-solid fa-indian-rupee-sign"></i>250.00</span>
+                            <span class="striked_price"><i class="fa-solid fa-indian-rupee-sign"></i>300</span>
+                        </p>
+                        <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                            <i class="fa-solid fa-phone"></i>
+                            Enquire Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div onclick="window.location.href = 'products.html'"
+                class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 productCol  animate fadeInUp "
+                data-category="dry-meat">
+                <div class="product_card">
+                    <img src="img/product_image 03.webp" alt="">
+                    <div class="product_card_description">
+                        <p class="product_card_description_name">Dry Meat 100gm</p>
+                        <p class="product_card_description_star">★★★★★</p>
+                        <p class="product_card_description_price">
+                            <span class="highlighted_price"><i class="fa-solid fa-indian-rupee-sign"></i>240.00</span>
+                            <span class="striked_price"><i class="fa-solid fa-indian-rupee-sign"></i>300</span>
+                        </p>
+                        <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                            <i class="fa-solid fa-phone"></i>
+                            Enquire Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div onclick="window.location.href = 'products.html'"
+                class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 productCol  animate fadeInUp "
+                data-category="dry-meat">
+                <div class="product_card">
+                    <img src="img/smoked_buffalo_meat_idiyirachi.png" alt="">
+                    <div class="product_card_description">
+                        <p class="product_card_description_name"> Buffalo Meat Idiyirachi 125gm</p>
+                        <p class="product_card_description_star">★★★★★</p>
+                        <p class="product_card_description_price">
+                            <span class="highlighted_price"><i class="fa-solid fa-indian-rupee-sign"></i>375.00</span>
+                            <span class="striked_price"><i class="fa-solid fa-indian-rupee-sign"></i>500</span>
+                        </p>
+                        <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                            <i class="fa-solid fa-phone"></i>
+                            Enquire Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div onclick="window.location.href = 'products.html'"
+                class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 productCol  animate fadeInUp "
+                data-category="dry-meat">
+                <div class="product_card">
+                    <img src="img/smoked_buffalo_meat_idiyirachi.png" alt="">
+                    <div class="product_card_description">
+                        <p class="product_card_description_name">Buffalo Meat Idiyirachi 250gm</p>
+                        <p class="product_card_description_star">★★★★★</p>
+                        <p class="product_card_description_price">
+                            <span class="highlighted_price"><i class="fa-solid fa-indian-rupee-sign"></i>750.00</span>
+                            <span class="striked_price"><i class="fa-solid fa-indian-rupee-sign"></i>800</span>
+                        </p>
+                        <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                            <i class="fa-solid fa-phone"></i>
+                            Enquire Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div onclick="window.location.href = 'products.html'"
+                class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 productCol  animate fadeInUp "
+                data-category="dry-meat">
+                <div class="product_card">
+                    <img src="img/buffalo_meat_chammanthi_podi.png" alt="">
+                    <div class="product_card_description">
+                        <p class="product_card_description_name">Buffalo Meat Chammanthi Podi</p>
+                        <p class="product_card_description_star">★★★★★</p>
+                        <p class="product_card_description_price">
+                            <span class="highlighted_price"><i class="fa-solid fa-indian-rupee-sign"></i>180.00</span>
+                            <span class="striked_price"><i class="fa-solid fa-indian-rupee-sign"></i>200</span>
+                        </p>
+                        <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                            <i class="fa-solid fa-phone"></i>
+                            Enquire Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div onclick="window.location.href = 'products.html'"
+                class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 productCol  animate fadeInUp "
+                data-category="others">
+                <div class="product_card">
+                    <img src="img/buffalo_meat_pickle.png" alt="">
+                    <div class="product_card_description">
+                        <p class="product_card_description_name">Buffalo Meat Pickle 150gm</p>
+                        <p class="product_card_description_star">★★★★★</p>
+                        <p class="product_card_description_price">
+                            <span class="highlighted_price"><i class="fa-solid fa-indian-rupee-sign"></i>270.00</span>
+                            <span class="striked_price"><i class="fa-solid fa-indian-rupee-sign"></i>300</span>
+                        </p>
+                        <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                            <i class="fa-solid fa-phone"></i>
+                            Enquire Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div onclick="window.location.href = 'products.html'"
+            class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 productCol  animate fadeInUp "
+            data-category="others">
+            <div class="product_card">
+                <img src="img/Buffalo_meat_pickle_250.png" alt="">
+                <div class="product_card_description">
+                    <p class="product_card_description_name">Buffalo Meat Pickle 250gm</p>
+                    <p class="product_card_description_star">★★★★★</p>
+                    <p class="product_card_description_price">
+                        <span class="highlighted_price"><i class="fa-solid fa-indian-rupee-sign"></i>450.00</span>
+                        <span class="striked_price"><i class="fa-solid fa-indian-rupee-sign"></i>500</span>
+                    </p>
+                    <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                        <i class="fa-solid fa-phone"></i>
+                        Enquire Now
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div onclick="window.location.href = 'products.html'"
+        class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 productCol  animate fadeInUp "
+        data-category="crushed-meat">
+        <div class="product_card">
+            <img src="img/product_image 01.webp" alt="">
+            <div class="product_card_description">
+                <p class="product_card_description_name">Smoked Buffalo Crushed Meat</p>
+                <p class="product_card_description_star">★★★★★</p>
+                <p class="product_card_description_price">
+                    <span class="highlighted_price"><i class="fa-solid fa-indian-rupee-sign"></i>375.00</span>
+                    <span class="striked_price"><i class="fa-solid fa-indian-rupee-sign"></i>400</span>
+                </p>
+                <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                    <i class="fa-solid fa-phone"></i>
+                    Enquire Now
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+                <!-- <div onclick="window.location.href = 'products.html'"
+                    class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 productCol  animate fadeInUp "
+                    data-category="dry-meat">
+                    <div class="product_card">
+                        <img src="img/product_image 01.webp" alt="">
+                        <div class="product_card_description">
+                            <p class="product_card_description_name">Smoked buffalo dry meat</p>
+                            <p class="product_card_description_star">★★★★★</p>
+                            <p class="product_card_description_price">
+                                <span class="highlighted_price">$12.99</span>
+                                <span class="striked_price">$14.99</span>
+                            </p>
+                            <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                                <i class="fa-solid fa-phone"></i>
+                                Enquire Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div onclick="window.location.href = 'products.html'"
+                    class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 productCol  animate fadeInUp "
+                    data-category="others">
+                    <div class="product_card">
+                        <img src="img/product_image 02.webp" alt="">
+                        <div class="product_card_description">
+                            <p class="product_card_description_name">Chicken pickle</p>
+                            <p class="product_card_description_star">★★★★★</p>
+                            <p class="product_card_description_price">
+                                <span class="highlighted_price">$12.99</span>
+                                <span class="striked_price">$14.99</span>
+                            </p>
+                            <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                                <i class="fa-solid fa-phone"></i>
+                                Enquire Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div onclick="window.location.href = 'products.html'"
+                    class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 productCol  animate fadeInUp "
+                    data-category="crushed-meat">
+                    <div class="product_card">
+                        <img src="img/product_image 03.webp" alt="">
+                        <div class="product_card_description">
+                            <p class="product_card_description_name">Smoked buffalo crushed meat</p>
+                            <p class="product_card_description_star">★★★★★</p>
+                            <p class="product_card_description_price">
+                                <span class="highlighted_price">$12.99</span>
+                                <span class="striked_price">$14.99</span>
+                            </p>
+                            <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                                <i class="fa-solid fa-phone"></i>
+                                Enquire Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div onclick="window.location.href = 'products.html'"
+                    class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 productCol  animate fadeInUp "
+                    data-category="crushed-meat">
+                    <div class="product_card">
+                        <img src="img/product_image 04.webp" alt="">
+                        <div class="product_card_description">
+                            <p class="product_card_description_name">Smoked buffalo Idiyirachi</p>
+                            <p class="product_card_description_star">★★★★★</p>
+                            <p class="product_card_description_price">
+                                <span class="highlighted_price">$12.99</span>
+                                <span class="striked_price">$14.99</span>
+                            </p>
+                            <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                                <i class="fa-solid fa-phone"></i>
+                                Enquire Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div onclick="window.location.href = 'products.html'"
+                    class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 productCol  animate fadeInUp "
+                    data-category="others">
+                    <div class="product_card">
+                        <img src="img/product_image 05.webp" alt="">
+                        <div class="product_card_description">
+                            <p class="product_card_description_name"> Buffalo chammanthi podi</p>
+                            <p class="product_card_description_star">★★★★★</p>
+                            <p class="product_card_description_price">
+                                <span class="highlighted_price">$12.99</span>
+                                <span class="striked_price">$14.99</span>
+                            </p>
+                            <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                                <i class="fa-solid fa-phone"></i>
+                                Enquire Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div onclick="window.location.href = 'products.html'"
+                    class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 productCol  animate fadeInUp "
+                    data-category="others">
+                    <div class="product_card">
+                        <img src="img/product_image 06.webp" alt="">
+                        <div class="product_card_description">
+                            <p class="product_card_description_name">Chicken pickle</p>
+                            <p class="product_card_description_star">★★★★★</p>
+                            <p class="product_card_description_price">
+                                <span class="highlighted_price">$12.99</span>
+                                <span class="striked_price">$14.99</span>
+                            </p>
+                            <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                                <i class="fa-solid fa-phone"></i>
+                                Enquire Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div onclick="window.location.href = 'products.html'"
+                    class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 productCol  animate fadeInUp "
+                    data-category="others">
+                    <div class="product_card">
+                        <img src="img/product_image 07.webp" alt="">
+                        <div class="product_card_description">
+                            <p class="product_card_description_name">Turmeric Powder</p>
+                            <p class="product_card_description_star">★★★★★</p>
+                            <p class="product_card_description_price">
+                                <span class="highlighted_price">$12.99</span>
+                                <span class="striked_price">$14.99</span>
+                            </p>
+                            <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                                <i class="fa-solid fa-phone"></i>
+                                Enquire Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div onclick="window.location.href = 'products.html'"
+                    class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 productCol  animate fadeInUp "
+                    data-category="others">
+                    <div class="product_card">
+                        <img src="img/product_image 08.webp" alt="">
+                        <div class="product_card_description">
+                            <p class="product_card_description_name">Turmeric Powder</p>
+                            <p class="product_card_description_star">★★★★★</p>
+                            <p class="product_card_description_price">
+                                <span class="highlighted_price">$12.99</span>
+                                <span class="striked_price">$14.99</span>
+                            </p>
+                            <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                                <i class="fa-solid fa-phone"></i>
+                                Enquire Now
+                            </button>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <img src="img/products_section_bottom_strip.webp" alt="">
+    </section>
+
+    <section class="beef_benefits ">
+
+        <img src="img/beef_section_top_strip.webp" alt="">
+        <p>
+        </p>
+        <h5 style="width: 70%; text-align: center;">
+            The preference for beef/buffalo meat among many people in Kerala can be attributed to various cultural,
+            historical, and socioeconomic factors.
+        </h5>
+        <br><br>
+        <img class="beef_benefits_banner_lg animate fadeInUp " src="img/beef_benefits_banner_lg.webp" alt="">
+
+        <div class="beef_benefits_text animate fadeInUp ">
+            <h5>
+                Culinary Traditions
+            </h5>
+            <p>
+                kerala has a rich culinary heritage that includes a variety of meat dishes. Buffalo is commonly used in
+                traditional reciepes, such as bufalo curry, fry, pickles, and smoked idiyirachi etc., reflecting the
+                state's diverse food culture.
+            </p>
+            <h5>
+                Religious Diversity
+            </h5>
+            <p>
+                Kerala is known for it's religious plurality, with significant populations of Christians and muslims,
+                both of whom traditionally consume beef/buffalo meat. This contrasts with some other region s of india,
+                where hindi dietary practices may limit buffalo meat consumption.
+            </p>
+            <img class="beef_benefits_banner_sm animate fadeInUp " src="img/beef_benefits_banner_sm.webp" alt="">
+            <h5>
+                Economics Factors
+            </h5>
+            <p>
+                For many communities in Kerala, cattle rearing and buffalo production are economically significant,
+                buffalo is often more affordable than other meats., making it a staple protein source for many
+                households.
+            </p>
+            <h5>
+                Social and Cultural Identity
+            </h5>
+            <p>
+                In some communities, consuming beef/buffalo meat is part of their cultural identity and practice. It is
+                often featured in communal meals and celebrations, reinforcing social bonds.
+            </p>
+        </div>
+        <br><br>
+        <h5 style="width: 70%; text-align: center;">
+            Overall, the love for beef/buffalo meat in Kerala is deeply intertwined with the state's cultural, social,
+            and economic fabric, making it an integral part of many people's lives.
+        </h5>
+    </section>
+    <section class="top_selling_products_lg">
+        <section class="top_selling_products ">
+            <h3>
+                TOP SELLING PRODUCTS
+            </h3>
+            <div class="top_selling_product_listing">
+                <div class="row">
+                    <div
+                        class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 top_selling_product_listing_col  animate fadeInUp ">
+                        <img src="img/ts_product_image 01.webp" alt="">
+                        <h6>
+                            Bestome Smoked buffalo dry meat
+                        </h6>
+                        <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                            <i class="fa-solid fa-phone"></i>
+                            Enquire Now
+                        </button>
+                    </div>
+                    <div
+                        class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 top_selling_product_listing_col  animate fadeInUp ">
+                        <img src="img/ts_product_image 02.webp" alt="">
+                        <h6>
+                            Smoked buffalo crushed meat
+                        </h6>
+                        <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                            <i class="fa-solid fa-phone"></i>
+                            Enquire Now
+                        </button>
+                    </div>
+                    <div
+                        class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 top_selling_product_listing_col  animate fadeInUp ">
+                        <img src="img/ts_product_image 03.webp" alt="">
+                        <h6>
+                            Smoked buffalo Idiyirachi
+                        </h6>
+                        <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                            <i class="fa-solid fa-phone"></i>
+                            Enquire Now
+                        </button>
+                    </div>
+                    <div
+                        class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 top_selling_product_listing_col  animate fadeInUp ">
+                        <img src="img/ts_product_image 04.webp" alt="">
+                        <h6>
+                            Bufalo pickle
+                        </h6>
+                        <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                            <i class="fa-solid fa-phone"></i>
+                            Enquire Now
+                        </button>
+                    </div>
+                    <div
+                        class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 top_selling_product_listing_col  animate fadeInUp ">
+                        <img src="img/ts_product_image 05.webp" alt="">
+                        <h6>
+                            Bufalo chammanthi podi
+                        </h6>
+                        <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                            <i class="fa-solid fa-phone"></i>
+                            Enquire Now
+                        </button>
+                    </div>
+                    <div
+                        class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 top_selling_product_listing_col  animate fadeInUp ">
+                        <img src="img/ts_product_image 06.webp" alt="">
+                        <h6>
+                            Chicken pickle
+                        </h6>
+                        <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                            <i class="fa-solid fa-phone"></i>
+                            Enquire Now
+                        </button>
+                    </div>
+                    <div
+                        class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 top_selling_product_listing_col  animate fadeInUp ">
+                        <img src="img/ts_product_image 07.webp" alt="">
+                        <h6>
+                            Boneless chiken fiber
+                        </h6>
+                        <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                            <i class="fa-solid fa-phone"></i>
+                            Enquire Now
+                        </button>
+                    </div>
+                    <div
+                        class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 top_selling_product_listing_col  animate fadeInUp ">
+                        <img src="img/ts_product_image 08.webp" alt="">
+                        <h6>
+                            chicken chammanthi podi
+                        </h6>
+                        <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                            <i class="fa-solid fa-phone"></i>
+                            Enquire Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+    <section class="top_selling_products_sm">
+        <h3>
+            TOP SELLING PRODUCTS
+        </h3>
+        <div class="slideshow-container">
+
+            <div class="mySlides">
+                <div class="top_selling_product_listing_col   ">
+                    <img src="img/ts_product_image 01.webp" alt="">
+                    <h6>
+                        Bestome Smoked buffalo dry meat
+                    </h6>
+                    <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                        <i class="fa-solid fa-phone"></i>
+                        Enquire Now
+                    </button>
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <div class=" top_selling_product_listing_col   ">
+                    <img src="img/ts_product_image 02.webp" alt="">
+                    <h6>
+                        Smoked buffalo crushed meat
+                    </h6>
+                    <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                        <i class="fa-solid fa-phone"></i>
+                        Enquire Now
+                    </button>
+                </div>
+            </div>
+            <div class="mySlides">
+                <div class="top_selling_product_listing_col   ">
+                    <img src="img/ts_product_image 03.webp" alt="">
+                    <h6>
+                        Smoked buffalo Idiyirachi
+                    </h6>
+                    <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                        <i class="fa-solid fa-phone"></i>
+                        Enquire Now
+                    </button>
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <div class="top_selling_product_listing_col   ">
+                    <img src="img/ts_product_image 04.webp" alt="">
+                    <h6>
+                        Bufalo pickle
+                    </h6>
+                    <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                        <i class="fa-solid fa-phone"></i>
+                        Enquire Now
+                    </button>
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <div class="top_selling_product_listing_col  animate fadeInUp ">
+                    <img src="img/ts_product_image 05.webp" alt="">
+                    <h6>
+                        Bufalo chammanthi podi
+                    </h6>
+                    <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                        <i class="fa-solid fa-phone"></i>
+                        Enquire Now
+                    </button>
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <div class="top_selling_product_listing_col   ">
+                    <img src="img/ts_product_image 06.webp" alt="">
+                    <h6>
+                        Chicken pickle
+                    </h6>
+                    <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                        <i class="fa-solid fa-phone"></i>
+                        Enquire Now
+                    </button>
+                </div>
+            </div>
+            <div class="mySlides">
+                <div class="top_selling_product_listing_col   ">
+                    <img src="img/ts_product_image 07.webp" alt="">
+                    <h6>
+                        Boneless chiken fiber
+                    </h6>
+                    <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                        <i class="fa-solid fa-phone"></i>
+                        Enquire Now
+                    </button>
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <div class="top_selling_product_listing_col   ">
+                    <img src="img/ts_product_image 08.webp" alt="">
+                    <h6>
+                        chicken chammanthi podi
+                    </h6>
+                    <button onclick="window.location.href = 'contact.html'" class="BuyNowButton_1">
+                        <i class="fa-solid fa-phone"></i>
+                        Enquire Now
+                    </button>
+                </div>
+            </div>
+
+
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div> -->
+    </section>
+
+    <section class="benefits_of_baffallo_meat ">
+        <h3>
+            Discover the Benefits of Bestome's Smoked Buffalo Meat
+        </h3>
+        <!-- <p>
+            Overall, the love for beef/buffalo meat in Kerala is deeply interturned with the state's cultural, social,
+            and economic fabric, making it an integral part of many peoples lives.
+        </p> -->
+        <div class="beef_benefit_cards">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 benefits_of_baffallo_meat_col  animate fadeInUp">
+                    <div class="beef_benefit_card">
+                        <h5>
+                            1. Is Beef/Buffalo meat good for health?
+                        </h5>
+                        <p>
+                            Beef/bufalo meat is an excellent source of iron. The iron in beef/bufalo meat helps our body
+                            produce
+                            hemoglobin, a protein that helps our blood carry oxygen from our lungs to the rest of our
+                            body.
+                            Not
+                            consuming enough iron defence anemia, meaning our body isn't getting enough oxygen. The
+                            bufalo
+                            meat is
+                            dried slowly by the smoke from the fire wood which turnsit into a deep brown colour but
+                            keeps
+                            the
+                            insides looking red and fresh. Different dishes can be made from this dried bufalo meat. The
+                            salty,
+                            sweet, spicy tastes combining with the smell of the smoke are unique. Especially smoke is a
+                            natural
+                            antioxidant good for our health.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 benefits_of_baffallo_meat_col  animate fadeInUp">
+                    <div class="beef_benefit_card">
+                        <h5>
+                            2. What are the specialties of "Bestome" smoked buffalo meat and Idiyirachi?
+                        </h5>
+                        <p>
+                            Smoked buffalo meat Idiyirachi is an exceptional natural dish. Creating smoked buffalo meat
+                            is a time-consuming process that requires patience. It begins with taking a non-fatted piece
+                            of buffalo meat, typically from the shoulder, neck, or back, and cutting it into very thin,
+                            small pieces. The meat is then seasoned with salt, turmeric powder, pepper powder, and
+                            traditional spicy masalas for marination. After marinating for a few hours, the meat slices
+                            are skewered onto bamboo sticks, which are then hung in the kitchen or smoke chamber, giving
+                            it its distinctive name.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 benefits_of_baffallo_meat_col  animate fadeInUp">
+                    <div class="beef_benefit_card">
+                        <h5>
+                            3. What are the key nutritional benefits of “Bestome” smoked buffalo meat compared to other
+                            types of red meat?
+                        </h5>
+                        <p>
+                            Smoked buffalo meat offers a rich source of high-quality protein with less fat content
+                            compared to other red meats, making it a leaner choice that still provides robust flavor.
+                            The smoking process enhances its taste without the need for additional oils or fats, keeping
+                            it relatively low in calories. Buffalo meat is also rich in essential nutrients like iron,
+                            zinc, and B vitamins, especially B12, which supports energy levels and cognitive function.
+                            Compared to other red meats, smoked buffalo meat is typically lower in cholesterol, making
+                            it a heart-friendly option while still delivering a satisfying, smoky flavor profile.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team ">
+        <h3>
+            OUR TEAM
+        </h3>
+        <div class="team_listing">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 animate fadeInUp">
+                    <div class="team_card">
+                        <img src="img/chandrabose-image.png" alt="">
+                        <div class="name_tag">
+                            <h5>
+                                Mr. S. Chandra Bose
+                            </h5>
+                            <p>
+                                Founder & CEO
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 animate fadeInUp">
+                    <div class="team_card">
+                        <img src="img/vishnuunnikrishnan-image.png" alt="">
+                        <div class="name_tag">
+                            <h5>
+                                Mr. Vishnu Unnikrishnan
+                            </h5>
+                            <p>
+                                Marketing Manager
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 animate fadeInUp">
+                    <div class="team_card">
+                        <img src="img/havildarjobymathew-image.png" alt="">
+                        <div class="name_tag">
+                            <h5>
+                                Ex Hony Hav Joby Mathew M
+                            </h5>
+
+                            <p>
+                                office Administration
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact_form">
+        <img src="img/beef_section_top_strip.webp" alt="">
+        <h3>
+            SEND US A MESSAGE
+        </h3>
+        <form action="send_message.php" method="post">
+            <div class="form_input_container animate fadeInUp">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 contact_form_col">
+                        <input required type="text" placeholder="Your Name" name="name" id="name">
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 contact_form_col">
+                        <input required type="email" placeholder="Your Email" name="email" id="email">
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 contact_form_col">
+                        <input required type="tel" placeholder="Phone" name="phone" id="phone">
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 contact_form_col">
+                        <input required type="text" placeholder="Subject" name="subject" id="subject">
+                    </div>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 contact_form_col">
+                        <textarea required rows="10" name="message" id="message" placeholder="Message"></textarea>
+                    </div>
+                    <div class="honeypot" style="display:none;">
+                        <input type="text" name="website" id="website" placeholder="Your Website">
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="buyNow_button_white"><i
+                    class="fa-solid fa-paper-plane"></i>&nbsp;&nbsp;Send</button>
+        </form>
+        <img src="img/products_section_bottom_strip.webp" alt="">
+    </section>
+
+    <footer class="footer">
+        <img src="img/beef_section_top_strip.webp" alt="">
+        <div class="footer_items ">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 footer_items_col animate fadeInUp">
+                    <img src="img/Bestome_logo.webp" alt="">
+                    <br><br>
+                    <p>
+                        M/S SREESHA FOOD INDUSTRIES (INDIA) VP/20/317- B,C,D&E MARIYAN COMPLEX, KAMBALAKALLU (P.O),
+                        THAZHE MAMANKARA, VAZHIKKADAVU, MALAPPURAM, PIN : 679333
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-paper-plane"></i> &nbsp; <a href="mailto:">Yourmail@gmail.com</a>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-phone"></i> &nbsp; <a href="tel:+918590925972">+918590925972</a>
+                    </p>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 footer_items_col animate fadeInUp">
+                    <h5>
+                        Useful Links
+                    </h5>
+                    <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h6>
+                    <br>
+                    <a href="index.html">Home</a><br>
+                    <a href="#home_about">About us</a><br>
+                    <a href="products.html">Products</a><br>
+                    <a href="contact.html">Contact Us</a><br>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 footer_items_col animate fadeInUp">
+                    <h5>
+                        Follow Us Now
+                    </h5>
+                    <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h6>
+                    <br>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i> &nbsp;facebook</a><br>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i> &nbsp;twitter</a><br>
+                    <a href=""><i class="fa-brands fa-instagram"></i> &nbsp;instagram</a><br>
+                    <a href=""><i class="fa-brands fa-dribbble"></i> &nbsp;dribbble</a><br>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 footer_items_col4 animate fadeInUp">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3911.1067448078716!2d76.31983567505105!3d11.399792688789377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDIzJzU5LjMiTiA3NsKwMTknMjAuNyJF!5e0!3m2!1sen!2sin!4v1730184121840!5m2!1sen!2sin"
+                        width="100%" height="70%" style="border:0; border-radius: 10px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+            </div>
+            <div class="footer_strip">
+                <p><a href="privacy-policy.html">Privacy</a> &nbsp;&nbsp;&nbsp; <a
+                        href="terms-and-conditions.html">Terms & Conditions</a> &nbsp;&nbsp;&nbsp; <a
+                        href="sitemap.html">Sitemap</a></p>
+                <p><a href="">© 2024 Bestome. All Rights Reserved.</a></p>
+                <p><a href="https://illforddigital.com/">Designed and Developed by: Illford Digital</a></p>
+            </div>
+        </div>
+
+    </footer>
+
+    <div class="floating_btn_call">
+        <a target="_blank" href="tel:+918590925972" style="text-decoration: none;">
+            <div class="contact_icon_call">
+                <i class="fa-solid fa-phone"></i>
+            </div>
+        </a>
+        <p class="text_icon_call">Talk to us?</p>
+    </div>
+
+    <div class="floating_btn">
+        <a target="_blank" href="https://wa.me/+918590925972" style="text-decoration: none;">
+            <div class="contact_icon">
+                <i class="fa fa-whatsapp my-float"></i>
+            </div>
+        </a>
+        <p class="text_icon">Talk to us?</p>
+    </div>
+
+    <script src="js/hamburgerToggle.js"></script>
+    <script src="js/productCategories.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/slide.js"></script>
+
+</body>
+
+</html>
